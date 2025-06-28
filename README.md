@@ -1,6 +1,6 @@
 # 🏥 Medical Assistant App
 
-A full-stack AI-powered medical assistant web application that helps users get health-related support and suggestions. Built with **FastAPI** (backend) and **React** (frontend), powered by **Groq API** for fast, low-latency inference using models like LLaMA 3.
+A full-stack AI-powered medical assistant web application that helps users get health-related support and suggestions. Built with **FastAPI** (backend) and **React** (frontend), powered by **Groq API** for fast, low-latency inference using meta-llama/llama-4-scout-17b-16e-instruct.
 
 ---
 
@@ -19,7 +19,7 @@ A full-stack AI-powered medical assistant web application that helps users get h
 |-----------|------------------------------|
 | Frontend  | React, JavaScript            |
 | Backend   | FastAPI, Uvicorn             |
-| AI Model  | Groq API (e.g., LLaMA 3)     |
+| AI Model  | Groq API (meta-llama/llama-4-scout-17b-16e-instruct)     |
 | Styling   | CSS / Tailwind / Chakra UI (as applicable) |
 
 ---
