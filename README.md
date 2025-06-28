@@ -6,7 +6,7 @@ A full-stack AI-powered medical assistant web application that helps users get h
 
 ## 📦 Features
 
-- 🧠 AI-driven medical Q&A using LLaMA 3 via Groq API
+- 🧠 AI-driven medical insight system via Groq API
 - 🔒 Secure communication between frontend and backend
 - ⚡ Real-time suggestions
 - 📱 Responsive UI
