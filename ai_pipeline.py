@@ -513,17 +513,3 @@ def run_pipeline(text_input=None, text_file=None, lab_files=None, xray_files=Non
     return results
 
 
-# ---------------- 🧪 EXAMPLE USAGE ----------------
-if __name__ == "__main__":
-    # Example usage
-    result = run_pipeline(
-        text_input="Patient presents with chest pain and shortness of breath.",
-        lab_files=["path/to/lab_report.pdf", "path/to/blood_work.csv"],
-        xray_files=["path/to/chest_xray.jpg"]
-    )
-    
-    # Save results
-    with open("medical_analysis_results.json", "w") as f:
-        json.dump(result, f, indent=2)
-    
-    print("Results saved to medical_analysis_results.json")
